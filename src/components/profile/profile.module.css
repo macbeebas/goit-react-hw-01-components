@@ -1,0 +1,75 @@
+:root {
+  /* variables */
+  --global-ratio: 1em; /* 1em = 32px */
+}
+
+.profile {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  background-color: white;
+  font-size: calc(1 * var(--global-ratio));
+  display: flex;
+  flex-direction: column;
+  outline: 2px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px lightgrey;
+  max-width: 50%;
+  margin: auto;
+  margin: 10px auto;
+}
+
+.description {
+  margin: auto;
+}
+
+.avatar {
+  outline: 1px solid grey;
+  box-shadow: 0 0 10px 3px grey;
+  border-radius: 50%;
+  max-width: 50%;
+  margin: 0;
+  margin-top: calc(1 * var(--global-ratio));
+  margin-bottom: calc(1 * var(--global-ratio));
+}
+
+.name {
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.tag {
+  padding-top: 10px;
+  margin: 0;
+}
+
+.location {
+  padding: 10px 0px;
+  margin: 0;
+}
+
+.stats {
+  display: flex;
+  padding: 0;
+}
+
+.stats_item {
+  outline: 1px solid lightgrey;
+  background-color: whitesmoke;
+  display: flex;
+  margin: auto;
+  padding: 3% 0px;
+  width: 33%;
+  flex-direction: column;
+}
+
+.label {
+  font-size: calc(0.8 * var(--global-ratio));
+}
+
+.quantity {
+  font-size: calc(0.8 * var(--global-ratio));
+  color: black;
+  font-weight: 700;
+  margin-top: 5px;
+}

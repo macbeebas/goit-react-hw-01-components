@@ -1,0 +1,56 @@
+:root {
+  /* variables */
+  --global-ratio: 1em; /* 1em = 32px */
+}
+
+.statistics {
+  /* border: 2px solid #4d555b; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* color: #4d555b; */
+  background-color: white;
+  font-size: calc(1 * var(--global-ratio));
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 5px lightgrey;
+  max-width: 70%;
+  margin: auto;
+  margin: 10px auto;
+}
+
+.title {
+  /* border: 1px solid green; */
+  font-size: calc(1.2 * var(--global-ratio));
+  font-weight: bold;
+  color: #4d555b;
+  margin: 0;
+  padding: 5%;
+}
+
+.stat_list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  border: 1px solid dimgrey;
+  display: flex;
+  flex-direction: column;
+  min-width: calc(25% - 2px);
+  background-color: darkgray;
+  color: white;
+  font-weight: 600;
+  /* margin: auto; */
+}
+
+.label {
+  padding: 10px 0;
+}
+
+.percentage {
+  font-size: calc(1.5 * var(--global-ratio));
+  padding: 10px 0;
+}
