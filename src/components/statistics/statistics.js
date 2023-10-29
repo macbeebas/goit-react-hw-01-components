@@ -1,10 +1,10 @@
 import css from './statistics.module.css';
 import PropTypes from 'prop-types';
+
 export default function Statistics({ title, stats }) {
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
-      {console.log(stats)}
       <ul className={css.stat_list}>
         {stats.map(element => (
           <li className={css.item}>

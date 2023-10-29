@@ -13,7 +13,10 @@ import FriendList from './friendlist/friendlist'; // friendlist.js
 // Component "Statistics" files
 import transactions from './transactionhistory/transactions';
 import TransactionHistory from './transactionhistory/transactionhistory';
-
+<img
+  src="./src/components/transactionhistory/transactions-sample.jpg"
+  alt=""
+/>;
 export const App = () => {
   return (
     <>
@@ -44,7 +47,7 @@ export const App = () => {
           <li className="componenets-item">
             <div className="components-item-box">
               <h2 className="components-subheader">Component "FriendList"</h2>
-              <FriendList friends={friends} />;
+              <FriendList friends={friends} />
             </div>
           </li>
           <li className="componenets-item">
@@ -52,7 +55,7 @@ export const App = () => {
               <h2 className="components-subheader">
                 Component "TransactionHistory"
               </h2>
-              <TransactionHistory items={transactions} />;
+              <TransactionHistory transactions={transactions} />
             </div>
           </li>
         </ul>

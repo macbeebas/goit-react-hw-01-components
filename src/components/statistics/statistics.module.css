@@ -4,9 +4,7 @@
 }
 
 .statistics {
-  /* border: 2px solid #4d555b; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* color: #4d555b; */
   background-color: white;
   font-size: calc(1 * var(--global-ratio));
   display: flex;
@@ -14,12 +12,10 @@
   border-radius: 3px;
   box-shadow: 0 0 10px 5px lightgrey;
   max-width: 70%;
-  margin: auto;
   margin: 10px auto;
 }
 
 .title {
-  /* border: 1px solid green; */
   font-size: calc(1.2 * var(--global-ratio));
   font-weight: bold;
   color: #4d555b;
@@ -43,7 +39,6 @@
   background-color: darkgray;
   color: white;
   font-weight: 600;
-  /* margin: auto; */
 }
 
 .label {

@@ -20,7 +20,7 @@ code {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  max-width: 80%;
+  max-width: 90%;
 }
 
 .components-list {
@@ -33,7 +33,6 @@ code {
 
 .components-header {
   border-bottom: 2px solid black;
-  /* padding-bottom: 0.5em; */
   margin: 0;
   padding: 10px 0 20px;
   text-align: center;
@@ -47,9 +46,7 @@ code {
 }
 
 .components-subheader {
-  /* outline: 1px solid red; */
 }
 
 .components-item-box {
-  /* outline: 5px solid blue; */
 }

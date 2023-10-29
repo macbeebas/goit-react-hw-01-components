@@ -1,3 +1,56 @@
+:root {
+  /* variables */
+  --global-ratio: 1em; /* 1em = 32px */
+}
+
 .transactionhistory {
-  outline: 1px solid green;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  font-size: calc(1 * var(--global-ratio));
+  border-radius: 3px;
+  box-shadow: 0 0 4px 2px lightgrey;
+  max-width: 85%;
+  margin: 10px auto;
+  color: #828485;
+}
+
+.transHist_main {
+  width: 80%;
+  margin: 10px;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px 1px lightgrey;
+  border-radius: 3px;
+}
+
+.transHist_header {
+}
+
+.transHist_header_row {
+}
+
+.transHist_header_style {
+  padding: 5px 10px;
+  background-color: #00bcd5;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid white;
+}
+
+.transHist_body {
+}
+
+.transHist_item_row {
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.transHist_item_row:nth-child(even) {
+  background-color: #ecf1f4;
+}
+
+.transHist_item_row td {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
 }
